@@ -8,9 +8,9 @@ console.log(btns);
 btns.forEach(btn => {
     btn.addEventListener('click', () => {
         if(btn.classList.contains('openBtn')) {
-            wrap.classList.add('close-modal');
-        } else if(btn.classList.contains('closeBtn')) {
             wrap.classList.remove('close-modal');
+        } else if(btn.classList.contains('closeBtn')) {
+            wrap.classList.add('close-modal');
         }
     });
 })
