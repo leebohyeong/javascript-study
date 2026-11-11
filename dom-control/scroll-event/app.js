@@ -17,4 +17,5 @@ window.addEventListener('scroll', () => {
     console.log(scrolly);
 
     wrap.classList.toggle('scroll', scrolly > headerHeight);
+    header.classList.toggle('active', scrolly > headerHeight);
 });
