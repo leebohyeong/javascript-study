@@ -60,6 +60,7 @@ const foundColor = colors.find(color => {
 console.log(foundColor);
 
 //filter() 조건에 맞는 모든 요소를 새 배열로 반환합니다.
+console.log(colors);
 const longColors = colors.filter(color => {
     return color.length > 3
 });
