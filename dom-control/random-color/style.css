@@ -1,0 +1,58 @@
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1.6rem;
+    color: #333333;
+    background-color: #f5f3ff;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    /* background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); */
+    color: #fff;
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 0 0 10px rgb(255, 38, 0);
+}
+
+button {
+    cursor: pointer;
+    padding: 20px 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+button[aria-label='시작'] {
+    background-color: #000;
+}
+
+button[aria-label='스탑'] {
+    background-color: #fff;
+    color: #000;
+}
